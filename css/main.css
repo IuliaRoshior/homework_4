@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TT Norms';
+    font-style: normal;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#catalog {
+    background-color: #E5E5E5;;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.catalog__item {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.product__image img{
+    height: 100%;
+    width: 300px;
+    border-radius: 8px 8px 0 0;
+}
+
+.product__content {
+    background-color: #F2F3F5;
+    border-radius: 0 0 8px 8px;
+    border: 2px solid rgb(255, 225, 225);
+    border-top: none;
+    padding: 15px;
+    height: 180px;
+}
+
+.product__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1B1C21;
+}
+
+.product_attributes {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #353949;
+}
+
+.product__content-footer{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7D818E;
+}
